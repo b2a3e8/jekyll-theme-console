@@ -27,7 +27,8 @@ footer: 'follow us on <a href="https://twitter.com/CyberSecurityLI">twitter</a>'
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-console
+#theme: jekyll-theme-console
+remote_theme: jekyll-theme-console
 
 
 # Exclude from processing.

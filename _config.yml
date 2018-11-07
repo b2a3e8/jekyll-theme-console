@@ -1,7 +1,7 @@
 title: "Test"
 description: "site description for seo"
-baseurl: "/jekyll-theme-console" # the subpath of your site, e.g. /blog
-url: "https://b2a3e8.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/jekyll-theme-console"
+url: "https://b2a3e8.github.io"
 
 header_pages:
   - index.md

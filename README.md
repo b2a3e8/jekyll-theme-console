@@ -4,6 +4,12 @@ A jekyll theme with inspiration from linux consoles for hackers, developers and 
 
 ![Screenshot](screenshot.gif)
 
+
+## Demo
+
+[https://b2a3e8.github.io/jekyll-theme-console/](https://b2a3e8.github.io/jekyll-theme-console/)
+
+
 ## Installation
 
 Add this line to your Jekyll site's `Gemfile`:

@@ -5,8 +5,8 @@
  * Style variables
  */
 $base-font-family:     'Source Code Pro', monospace !default;
-$base-font-size:       16px !default;
-$base-line-height:     1.7 !default;
+$base-font-size:       12.5px !default;
+$base-line-height:     1.5 !default;
 $text-color:           #fff !default;
 $background-color:     #000 !default;
 $primary-color:        #a1fc8f !default;
@@ -16,8 +16,8 @@ $container-max-width:  600px !default;
 /**
  * Global
  */
-body { background-color: $background-color;  margin: 0 auto;  padding: 0;  font-family: $base-font-family;  font-size: 13px;  color: $text-color;  text-align: left;  line-height: $base-line-height !important; }
-h1, h2, h3, h4, h5, h6 { font-size: 13px;  margin: 0px;  margin-bottom: 3px;  margin-top: 25px;  font-weight: bold;  color: #fff; }
+body { background-color: $background-color;  margin: 0 auto;  padding: 0;  font-family: $base-font-family;  font-size: $base-font-size;  color: $text-color;  text-align: left;  line-height: $base-line-height !important; }
+h1, h2, h3, h4, h5, h6 { font-size: $base-font-size;  margin: 0px;  margin-bottom: 3px;  margin-top: 25px;  font-weight: bold;  color: #fff; }
 p { margin: 0px; }
 a { text-decoration: underline;  color: #fff; }
 a:hover { color: #000; background-color: #fff; }
@@ -57,7 +57,7 @@ header p { text-align: left;  margin: 0;  color: rgba(255,255,255,1); }
 /**
  * Code and syntax highlighting
  */
-pre { background-color: rgba(255,255,255,0);  border: none;  padding: 0px;  overflow:auto;  font-size: 12px;  color: rgba(255,255,255,0.65);  line-height: 1.7 !important; }
+pre { background-color: rgba(255,255,255,0);  border: none;  padding: 0px;  overflow:auto;  font-size: $base-font-size;  color: rgba(255,255,255,0.65);  line-height: 1.7 !important; }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { font-weight: bold } /* Keyword */

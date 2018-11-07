@@ -1,13 +1,4 @@
-
-
-# Build settings
-plugins:
-  - jekyll-seo-tag
-
-
-
-
-# Site settings
+# Example Site settings
 
 #google_analytics: UA-NNNNNNNN-N
 

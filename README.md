@@ -28,7 +28,10 @@ Or install it yourself as:
 
 ## Usage
 
-In addition to the default configuration options, you can provide header_pages to specify which pages should be displayed in navbar. You can also provide a footer. Find examples below:
+In addition to jekyll's default configuration options, you can provide:
+- `header_pages` to specify which pages should be displayed in navbar
+- `footer` string, which will be inserted on the end of the page (doesn't support markup, but html)
+- `google_analytics` tracking id (tracking will be enabled only in production environments)
 
 ```yaml
 header_pages:
@@ -36,6 +39,8 @@ header_pages:
   - about.md
 
 footer: 'follow us on <a href="https://twitter.com/xxx">twitter</a>'
+
+google_analytics: UA-NNNNNNNN-N
 ```
 
 

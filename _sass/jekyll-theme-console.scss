@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6 { font-size: 13px;  margin: 0px;  margin-bottom: 3px;  ma
 p { margin: 0px; }
 a { text-decoration: underline;  color: #fff; }
 a:hover { color: #000; background-color: #fff; }
-.post-header { margin: 0px; }
+.primary-text { color: $primary-color; }
 
 /**
  * Layout

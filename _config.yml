@@ -12,4 +12,4 @@ footer: 'follow us on <a href="https://twitter.com/CyberSecurityLI">twitter</a>'
 
 # Build settings
 markdown: kramdown
-remote_theme: b2a3e8/jekyll-theme-console
+remote_theme: benbalter/retlab

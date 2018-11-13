@@ -8,7 +8,7 @@ header_pages:
   - blog.md
   - about.md
 
-footer: 'follow us on <a href="https://twitter.com/CyberSecurityLI">twitter</a>'
+footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
 
 # Build settings
 markdown: kramdown

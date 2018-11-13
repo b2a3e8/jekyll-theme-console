@@ -19,7 +19,7 @@ $container-max-width:  600px !default;
  */
 body { background-color: $background-color;  margin: 0 auto;  padding: 0;  font-family: $base-font-family;  font-size: $base-font-size;  color: $text-color;  text-align: left;  line-height: $base-line-height !important; }
 h1, h2, h3, h4, h5, h6 { font-size: $base-font-size;  margin: 0px;  margin-top: 25px;  font-weight: bold;  color: $text-color; }
-p { margin: 0px;  color: $text-color; }
+p, ul, ol { margin: 0px;  color: $text-color; }
 a { text-decoration: underline;  color: $link-color; }
 a:hover { color: #000; background-color: #fff; }
 .primary-text { color: $primary-color; }

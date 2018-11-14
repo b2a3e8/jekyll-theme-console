@@ -81,6 +81,7 @@ input, select, textarea, textarea::-webkit-input-placeholder { text-indent: 0px;
 input[type=submit] { font-size: $base-font-size;  font-family: $base-font-family;  line-height: $base-line-height;  cursor: pointer;  text-decoration: underline;  color: $link-color;  background-color: $background-color; }
 input[type=submit]:hover { color: $background-color; background-color: $base-color; }
 *:focus { outline: none; }
+textarea { vertical-align: top; }
 
 /**
  * Code and syntax highlighting

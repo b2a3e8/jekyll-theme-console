@@ -6,11 +6,17 @@
  */
 $base-font-family:     'Source Code Pro', monospace !default;
 $base-font-size:       12.5px !default;
+$mobile-font-size:     12px !default;
 $base-line-height:     1.5 !default;
-$text-color:           #fff !default;
-$link-color:           #fff !default;
-$background-color:     #000 !default;
+$base-color:           #DBDBDB !default;
 $primary-color:        #a1fc8f !default;
+$text-color:           $base-color !default;
+$placeholder-color:    $base-color !default;
+$link-color:           $base-color !default;
+$border:               dashed 1px rgba(219,219,219,0.9) !default;
+$selection-background: rgba(219,219,219,0.99) !default;
+$selection-text:       #000 !default;
+$background-color:     #000 !default;
 $container-width:      90% !default;
 $container-max-width:  600px !default;
 
@@ -18,26 +24,34 @@ $container-max-width:  600px !default;
  * Global
  */
 body { background-color: $background-color;  margin: 0 auto;  padding: 0;  font-family: $base-font-family;  font-size: $base-font-size;  color: $text-color;  text-align: left;  line-height: $base-line-height !important; }
-h1, h2, h3, h4, h5, h6 { font-size: $base-font-size;  margin: 0px;  margin-top: 25px;  font-weight: bold;  color: $text-color; }
+h1, h2, h3, h4, h5, h6 { font-size: $base-font-size;  margin: 0px;  margin-top: 22px;  font-weight: bold;  color: $text-color; }
 p, ul, ol { margin: 0px;  color: $text-color; }
 a { text-decoration: underline;  color: $link-color; }
-a:hover { color: #000; background-color: #fff; }
+a:hover { color: $background-color; background-color: $base-color; }
 .primary-text { color: $primary-color; }
+@media only screen and (max-device-width: 500px) { * { font-size: $mobile-font-size !important; } }
+/*h1:before { content: "#";  margin-right: 9px; }
+h2:before { content: "##";  margin-right: 9px; }
+h3:before { content: "###";  margin-right: 9px; }
+h4:before { content: "####";  margin-right: 9px; }
+h5:before { content: "#####";  margin-right: 9px; }
+h6:before { content: "######";  margin-right: 9px; }*/
 
 /**
  * Layout
  */
 .container { width: $container-width;  max-width: $container-max-width;  margin-right: auto;  margin-left: auto; }
 p { word-wrap: break-word;  word-break: break-word;  white-space: pre-wrap; }
-footer { color: #fff;  border-top: dashed 1px rgba(255,255,255,0.8);  margin: 20px auto 15px;  padding-top: 10px;  text-align: right; }
-header { margin-top: 25px;  margin-bottom: 10px;  color: rgba(161,252,143,1); }
-header p { text-align: left;  margin: 0;  color: rgba(255,255,255,1); }
+footer { color: $text-color;  border-top: $border;  margin: 20px auto 15px;  padding-top: 10px;  text-align: right; }
+header { margin-top: 25px;  margin-bottom: 10px; }
+header p { text-align: left;  margin: 0; }
+footer { margin-bottom: 20px; }
 
 /**
  * Highlight/Markup
  */
-::selection { background: rgba(255,255,255,0.99);  color: #000; }
-::-moz-selection { background: rgba(255,255,255,0.99);  color: #000; }
+::selection { background: $selection-background;  color: $selection-text; }
+::-moz-selection { background: $selection-background;  color: $selection-text; }
 
 /**
  * Lists
@@ -49,16 +63,27 @@ header p { text-align: left;  margin: 0;  color: rgba(255,255,255,1); }
 /**
  * Header/Navigation
  */
-.menu { border-top: 1px dashed rgba(255,255,255,0.8);  border-bottom: 1px dashed rgba(255,255,255,0.8);  margin-bottom: 25px; }
+.menu { border-top: $border;  border-bottom: $border;  margin-bottom: 25px; }
 .menu ul { margin-top: 12px;  margin-bottom: 12px;  padding-left: 0px;  list-style-type: none;  text-align: right; }
 .menu ul li { display: inline;  margin-left: 10px; }
-.menu ul li a { text-decoration: none;  color: #fff; }
-.menu ul li a:hover { text-decoration: none; color: #000; background-color: #fff; }
+.menu ul li a { text-decoration: none;  color: $text-color; }
+.menu ul li a:hover { text-decoration: none; color: $background-color; background-color: $base-color; }
+
+/**
+ * Form
+ */
+input[type=text], select, textarea { width: 100%;  border: none;  box-sizing: border-box;  resize: none;  background-color: $background-color;  color: $text-color;  font-size: $base-font-size;  font-family: $base-font-family;  line-height: $base-line-height; }
+::placeholder { color: $placeholder-color;  opacity: 1; }
+:-ms-input-placeholder { color: $placeholder-color; }
+::-ms-input-placeholder { color: $placeholder-color; }
+input[type=submit] { border: none;  font-size: $base-font-size;  font-family: $base-font-family;  line-height: $base-line-height;  cursor: pointer;  text-decoration: underline;  color: $link-color;  background-color: $background-color;  padding: 0; }
+input[type=submit]:hover { color: $background-color; background-color: $base-color; }
+*:focus { outline: none; }
 
 /**
  * Code and syntax highlighting
  */
-pre { background-color: rgba(255,255,255,0);  border: none;  padding: 0px;  overflow:auto;  font-size: $base-font-size;  color: rgba(255,255,255,0.65);  line-height: 1.7 !important; }
+pre { background-color: $background-color;  border: none;  padding: 0px;  overflow:auto;  font-size: $base-font-size;  color: rgba(255,255,255,0.65);  line-height: 1.7 !important; }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { font-weight: bold } /* Keyword */

@@ -72,11 +72,12 @@ footer { margin-bottom: 20px; }
 /**
  * Form
  */
-input[type=text], select, textarea { width: 100%;  border: none;  box-sizing: border-box;  resize: none;  background-color: $background-color;  color: $text-color;  font-size: $base-font-size;  font-family: $base-font-family;  line-height: $base-line-height; }
+input, select, textarea { padding: 0;  margin: 0;  -webkit-appearance: none;  -webkit-border-radius: 0;  border: none; }
+input[type=text], select, textarea { width: 100%;  box-sizing: border-box;  resize: none;  background-color: $background-color;  color: $text-color;  font-size: $base-font-size;  font-family: $base-font-family;  line-height: $base-line-height; }
 ::placeholder { color: $placeholder-color;  opacity: 1; }
 :-ms-input-placeholder { color: $placeholder-color; }
 ::-ms-input-placeholder { color: $placeholder-color; }
-input[type=submit] { border: none;  font-size: $base-font-size;  font-family: $base-font-family;  line-height: $base-line-height;  cursor: pointer;  text-decoration: underline;  color: $link-color;  background-color: $background-color;  padding: 0; }
+input[type=submit] { font-size: $base-font-size;  font-family: $base-font-family;  line-height: $base-line-height;  cursor: pointer;  text-decoration: underline;  color: $link-color;  background-color: $background-color; }
 input[type=submit]:hover { color: $background-color; background-color: $base-color; }
 *:focus { outline: none; }
 

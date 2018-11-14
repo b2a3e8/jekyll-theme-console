@@ -73,7 +73,7 @@ footer { margin-bottom: 20px; }
  * Form
  */
 input, select, textarea { padding: 0;  margin: 0;  -webkit-appearance: none;  -webkit-border-radius: 0;  border: none; }
-input[type=text], select, textarea { width: 100%;  box-sizing: border-box;  resize: none;  background-color: $background-color;  color: $text-color;  font-size: $base-font-size;  font-family: $base-font-family;  line-height: $base-line-height; }
+input[type=text], select, textarea { width: 100%;  box-sizing: border-box;  resize: none;  background-color: $background-color;  color: $text-color;  caret-color: $text-color;  font-size: $base-font-size;  font-family: $base-font-family;  line-height: $base-line-height; }
 ::placeholder { color: $placeholder-color;  opacity: 1; }
 :-ms-input-placeholder { color: $placeholder-color; }
 ::-ms-input-placeholder { color: $placeholder-color; }

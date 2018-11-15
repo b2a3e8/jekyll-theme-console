@@ -6,7 +6,6 @@ permalink: /contact
 
 # Get in touch?
 
-<br />
 <form>
   <input type="text" id="name" name="name" placeholder="name:">
   <input type="text" id="email" name="email" placeholder="email:">

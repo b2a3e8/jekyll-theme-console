@@ -10,4 +10,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 
-<a href="#" onclick="enableLightStyles()">light mode</a>
+<a href="#" onclick="switchDarkLightStyles()">light mode</a>

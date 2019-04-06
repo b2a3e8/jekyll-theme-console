@@ -5,6 +5,7 @@
   <title>{{ site.title }}{{ page.title }}</title>
   {%- seo title=false -%}
   <link id="main-dark" rel="stylesheet" type="text/css" href="{{ "/assets/main-dark.css" | relative_url }}">
+  <link id="main-light" rel="stylesheet" type="text/css" href="{{ "/assets/main-light.css" | relative_url }}" disabled>
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}

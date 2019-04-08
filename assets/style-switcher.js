@@ -4,10 +4,10 @@ function switchDarkLightStyles () {
     if (document.getElementById(cssIdLight).hasAttribute('disabled')) {
         // enable light style
         document.getElementById(cssIdLight).removeAttribute('disabled');
-        document.getElementById(cssIdDark).setAttribute('disabled');
+        document.getElementById(cssIdDark).setAttribute('disabled', true);
     } else {
         // enable dark style
         document.getElementById(cssIdDark).removeAttribute('disabled');
-        document.getElementById(cssIdLight).setAttribute('disabled');
+        document.getElementById(cssIdLight).setAttribute('disabled', true);
     }
 }

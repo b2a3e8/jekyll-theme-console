@@ -8,6 +8,7 @@
 
 #footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
 
+style: light # dark (default) or light
 
 plugins:
   - jekyll-seo-tag

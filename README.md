@@ -2,7 +2,7 @@
 
 A jekyll theme with inspiration from linux consoles for hackers, developers and script kiddies.
 
-![Demo Dark Style](screenrec-dark.gif | width=550)
+![Screenshot](screenrec-dark.gif)
 
 ## Demo
 

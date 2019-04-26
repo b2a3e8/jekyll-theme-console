@@ -2,11 +2,11 @@
 
 #google_analytics: UA-NNNNNNNN-N
 
-#header_pages:
-#  - index.md
+header_pages:
+  - index.md
 #  - about.md
 
-#footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
+footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
 
 style: light # dark (default) or light
 

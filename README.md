@@ -44,6 +44,8 @@ header_pages:
   - index.md
   - about.md
 
+style: dark # dark (default) or light
+
 footer: 'follow us on <a href="https://twitter.com/xxx">twitter</a>'
 
 google_analytics: UA-NNNNNNNN-N

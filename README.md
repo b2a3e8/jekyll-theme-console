@@ -2,8 +2,8 @@
 
 A jekyll theme with inspiration from linux consoles for hackers, developers and script kiddies.
 
-![Screenshot](screenshot.gif)
-
+<img src="screenrec-dark.gif" alt="Demo Dark Style" style="float: left; width: 50%;" />
+<img src="screenrec-light.gif" alt="Demo Light Style" style="float: left; width: 50%;" />
 
 ## Demo
 

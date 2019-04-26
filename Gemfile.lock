@@ -33,7 +33,7 @@ GEM
       sass (~> 3.4)
     jekyll-seo-tag (2.6.0)
       jekyll (~> 3.3)
-    jekyll-theme-console (0.3.0)
+    jekyll-theme-console (0.3.1)
       jekyll (~> 3.8)
       jekyll-seo-tag
     jekyll-watch (2.2.1)
@@ -66,8 +66,8 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 3.8.5)
   jekyll-feed (~> 0.6)
-  jekyll-theme-console (~> 0)
+  jekyll-theme-console (> 0)
   tzinfo-data
 
 BUNDLED WITH
-   1.17.3
+   2.0.1

@@ -7,6 +7,7 @@ A jekyll theme with inspiration from linux consoles for hackers, developers and 
 ## Demo
 
 [https://b2a3e8.github.io/jekyll-theme-console/](https://b2a3e8.github.io/jekyll-theme-console/)
+
 ([source code](https://github.com/b2a3e8/jekyll-theme-console/tree/gh-pages))
 
 

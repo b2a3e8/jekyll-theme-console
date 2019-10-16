@@ -5,10 +5,14 @@
   <title>{{ site.title }}{{ page.title }}</title>
   {%- seo title=false -%}
 
-  {%- if site.style == 'light' -%}
-    <link rel="stylesheet" type="text/css" href="{{ "/assets/main-light.css" | relative_url }}">
+  {%- if site.listen_for_clients_preferred_style -%}
+    <link rel="stylesheet" type="text/css" href="{{ "/assets/main.css" | relative_url }}">
   {%- else -%}
-    <link rel="stylesheet" type="text/css" href="{{ "/assets/main-dark.css" | relative_url }}">
+    {%- if site.style == 'light' -%}
+     <link rel="stylesheet" type="text/css" href="{{ "/assets/main-light.css" | relative_url }}">
+   {%- else -%}
+      <link rel="stylesheet" type="text/css" href="{{ "/assets/main-dark.css" | relative_url }}">
+    {%- endif -%}
   {%- endif -%}
 
   {%- if jekyll.environment == 'production' and site.google_analytics -%}

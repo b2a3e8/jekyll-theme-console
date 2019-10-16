@@ -14,12 +14,12 @@ $container-max-width:  600px !default;
 /**
  * Global
  */
-body { background-color: $background-color;  margin: 0 auto;  padding: 0;  font-family: $base-font-family;  font-size: $base-font-size;  color: $text-color;  text-align: left;  line-height: $base-line-height !important; }
-h1, h2, h3, h4, h5, h6 { font-size: $base-font-size;  margin: 0px;  margin-top: 22px;  font-weight: bold;  color: $text-color; }
-p, ul, ol { margin: 0px;  color: $text-color; }
-a { text-decoration: underline;  color: $link-color; }
-a:hover { color: $background-color; background-color: $base-color; }
-.primary-text { color: $primary-color; }
+body { background-color: var(--background-color);  margin: 0 auto;  padding: 0;  font-family: $base-font-family;  font-size: $base-font-size;  color: var(--text-color);  text-align: left;  line-height: $base-line-height !important; }
+h1, h2, h3, h4, h5, h6 { font-size: $base-font-size;  margin: 0px;  margin-top: 22px;  font-weight: bold;  color: var(--text-color); }
+p, ul, ol { margin: 0px;  color: var(--text-color); }
+a { text-decoration: underline;  color: var(--link-color); }
+a:hover { color: var(--background-color); background-color: var(--base-color); }
+.primary-text { color: var(--primary-color); }
 @media only screen and (max-device-width: 500px) { * { font-size: $mobile-font-size !important; } }
 /*h1:before { content: "#";  margin-right: 9px; }
 h2:before { content: "##";  margin-right: 9px; }
@@ -33,7 +33,7 @@ h6:before { content: "######";  margin-right: 9px; }*/
  */
 .container { width: $container-width;  max-width: $container-max-width;  margin-right: auto;  margin-left: auto; }
 p { word-wrap: break-word;  word-break: break-word;  white-space: pre-wrap; }
-footer { color: $text-color;  border-top: $border;  margin: 20px auto 15px;  padding-top: 10px;  text-align: right; }
+footer { color: var(--text-color);  border-top: var(--border);  margin: 20px auto 15px;  padding-top: 10px;  text-align: right; }
 header { margin-top: 25px;  margin-bottom: 10px; }
 header p { text-align: left;  margin: 0; }
 footer { margin-bottom: 20px; }
@@ -41,8 +41,8 @@ footer { margin-bottom: 20px; }
 /**
  * Highlight/Markup
  */
-::selection { background: $selection-background;  color: $selection-text; }
-::-moz-selection { background: $selection-background;  color: $selection-text; }
+::selection { background: var(--selection-background);  color: var(--selection-text); }
+::-moz-selection { background: var(--selection-background);  color: var(--selection-text); }
 
 /**
  * Lists
@@ -54,30 +54,30 @@ footer { margin-bottom: 20px; }
 /**
  * Header/Navigation
  */
-.menu { border-top: $border;  border-bottom: $border;  margin-bottom: 25px; }
+.menu { border-top: var(--border);  border-bottom: var(--border);  margin-bottom: 25px; }
 .menu ul { margin-top: 12px;  margin-bottom: 12px;  padding-left: 0px;  list-style-type: none;  text-align: right; }
 .menu ul li { display: inline;  margin-left: 10px; }
-.menu ul li a { text-decoration: none;  color: $text-color; }
-.menu ul li a:hover { text-decoration: none; color: $background-color; background-color: $base-color; }
+.menu ul li a { text-decoration: none;  color: var(--text-color); }
+.menu ul li a:hover { text-decoration: none; color: var(--background-color); background-color: var(--base-color); }
 
 /**
  * Form
  */
 input, select, textarea { padding: 0;  margin: 0;  -webkit-appearance: none;  -webkit-border-radius: 0;  border: none; }
-input[type=text], select, textarea { width: 100%;  resize: none;  background-color: $background-color;  color: $text-color;  caret-color: $text-color;  font-size: $base-font-size;  font-family: $base-font-family;  line-height: $base-line-height; }
+input[type=text], select, textarea { width: 100%;  resize: none;  background-color: var(--background-color);  color: var(--text-color);  caret-color: var(--text-color);  font-size: $base-font-size;  font-family: $base-font-family;  line-height: $base-line-height; }
 input, select, textarea, textarea::-webkit-input-placeholder { text-indent: 0px; }
-::placeholder { color: $placeholder-color;  opacity: 1; }
-:-ms-input-placeholder { color: $placeholder-color; }
-::-ms-input-placeholder { color: $placeholder-color; }
-input[type=submit] { font-size: $base-font-size;  font-family: $base-font-family;  line-height: $base-line-height;  cursor: pointer;  color: $link-color;  background-color: $background-color; }
-input[type=submit]:hover { color: $background-color; background-color: $base-color; }
+::placeholder { color: var(--placeholder-color);  opacity: 1; }
+:-ms-input-placeholder { color: var(--placeholder-color); }
+::-ms-input-placeholder { color: var(--placeholder-color); }
+input[type=submit] { font-size: $base-font-size;  font-family: $base-font-family;  line-height: $base-line-height;  cursor: pointer;  color: var(--link-color);  background-color: var(--background-color); }
+input[type=submit]:hover { color: var(--background-color); background-color: var(--base-color); }
 *:focus { outline: none; }
 textarea { vertical-align: top; }
 
 /**
  * Code and syntax highlighting
  */
-pre { background-color: $background-color;  border: none;  padding: 0px;  overflow:auto;  font-size: $base-font-size;  color: rgba(255,255,255,0.65);  line-height: 1.7 !important; }
+pre { background-color: var(--background-color);  border: none;  padding: 0px;  overflow:auto;  font-size: $base-font-size;  color: rgba(255,255,255,0.65);  line-height: 1.7 !important; }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
 .highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
 .highlight .k { font-weight: bold } /* Keyword */

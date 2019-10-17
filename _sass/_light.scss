@@ -1,0 +1,16 @@
+/**
+ * Light theme variables
+ */
+
+:root {
+  --base-color: #000;
+  --primary-color: #0000EE;
+  --border: dashed 1px rgba(0, 0, 0, 1);
+  --selection-background: rgba(0, 0, 0, 0.99);
+  --selection-text: #FFF;
+  --background-color: #FFF;
+  --text-color: var(--base-color);
+  --placeholder-color: var(--base-color);
+  --link-color: var(--base-color);
+
+}

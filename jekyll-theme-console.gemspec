@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-console"
-  spec.version       = "0.3.4"
+  spec.version       = "0.3.5"
   spec.authors       = ["b2a3e8"]
   spec.email         = ["31370519+b2a3e8@users.noreply.github.com"]
 
@@ -14,6 +14,6 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency "jekyll", ">= 3.5"
   spec.add_runtime_dependency "jekyll-seo-tag"
-  spec.add_development_dependency "bundler", "> 1.16"
-  spec.add_development_dependency "rake", "~> 12.0"
+  spec.add_development_dependency "bundler"
+  spec.add_development_dependency "rake"
 end

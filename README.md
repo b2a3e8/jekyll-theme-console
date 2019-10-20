@@ -54,6 +54,14 @@ footer: 'follow us on <a href="https://twitter.com/xxx">twitter</a>'
 google_analytics: UA-NNNNNNNN-N
 ```
 
+## Customization
+
+If you want to customize this theme, follow this steps:
+1. Fork this repository
+2. Create or modify files in `_layouts` directory for html-based changes
+3. Create or modify files in `_sass` and `assets` for css-based changes
+4. Publish your repository and a gem, so other's can use your theme too
+5. If your customization looks better than the original, please create a pull request (-;
 
 ## Contributing
 

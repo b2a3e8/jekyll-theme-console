@@ -32,7 +32,7 @@ end
 {% endhighlight %}
 
 
-<br />python:
+<br /><br />python:
 {% highlight python %}
 def func():
      # function body
@@ -61,7 +61,7 @@ for w in words:
 {% endhighlight %}
 
 
-<br />php:
+<br /><br />php:
 {% highlight php %}
 <?php function add($x, $y) {
     $total = $x + $y;
@@ -72,7 +72,7 @@ echo "1 + 16 = " . add(1, 16);
 {% endhighlight %}
 
 
-<br />js:
+<br /><br />js:
 {% highlight javascript %}
 function sayHello(name) {
   if (!name) {
@@ -89,7 +89,7 @@ document.getElementById('demo').innerHTML = myFunc(4, 3);
 {% endhighlight %}
 
 
-<br />java:
+<br /><br />java:
 {% highlight java %}
 class HelloWorldApp {
     public static void main(String[] args) {
@@ -107,7 +107,7 @@ class HelloWorldApp {
 {% endhighlight %}
 
 
-<br />perl:
+<br /><br />perl:
 {% highlight perl %}
 while (<>) {
     chomp;
@@ -119,13 +119,13 @@ while (<>) {
 {% endhighlight %}
 
 
-<br />sql:
+<br /><br />sql:
 {% highlight sql %}
 SELECT Country FROM Customers WHERE Country <> 'USA'
 {% endhighlight %}
 
 
-<br />c++:
+<br /><br />c++:
 {% highlight c++ %}
 #include
 using namespace std;
@@ -136,7 +136,7 @@ int main () {
 {% endhighlight %}
 
 
-<br />c sharp:
+<br /><br />c sharp:
 {% highlight c# %}
 class Foo {
     public int Value;
@@ -148,7 +148,7 @@ Foo foo = (Foo)2;
 {% endhighlight %}
 
 
-<br />vb:
+<br /><br />vb:
 {% highlight vb linenos %}
 Private Sub Form_Load()
     MsgBox "Hello, World!"

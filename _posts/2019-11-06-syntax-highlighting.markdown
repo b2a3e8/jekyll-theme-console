@@ -8,7 +8,7 @@ categories:
 # Syntax highlighting
 This theme supports syntax respectively code highlighting. Below you find some examples of different programming languages.
 
-ruby:
+<br />ruby:
 {% highlight ruby %}
 def foo
   puts 'foo'
@@ -31,7 +31,8 @@ def bubble_sort(list)
 end
 {% endhighlight %}
 
-python:
+
+<br />python:
 {% highlight python %}
 def func():
      # function body
@@ -59,7 +60,8 @@ for w in words:
    print w, len(w)
 {% endhighlight %}
 
-php:
+
+<br />php:
 {% highlight php %}
 <?php function add($x, $y) {
     $total = $x + $y;
@@ -69,7 +71,8 @@ echo "1 + 16 = " . add(1, 16);
 ?>
 {% endhighlight %}
 
-js:
+
+<br />js:
 {% highlight javascript %}
 function sayHello(name) {
   if (!name) {
@@ -85,7 +88,8 @@ function myFunc(a, b) {
 document.getElementById('demo').innerHTML = myFunc(4, 3);
 {% endhighlight %}
 
-java:
+
+<br />java:
 {% highlight java %}
 class HelloWorldApp {
     public static void main(String[] args) {
@@ -94,14 +98,16 @@ class HelloWorldApp {
 }
 {% endhighlight %}
 
-objective c:
+
+<br />objective c:
 {% highlight objective_c %}
 - (int)method:(int)i {
     return [self square_root:i];
 }
 {% endhighlight %}
 
-perl:
+
+<br />perl:
 {% highlight perl %}
 while (<>) {
     chomp;
@@ -112,12 +118,14 @@ while (<>) {
 }
 {% endhighlight %}
 
-sql:
+
+<br />sql:
 {% highlight sql %}
 SELECT Country FROM Customers WHERE Country <> 'USA'
 {% endhighlight %}
 
-c++:
+
+<br />c++:
 {% highlight c++ %}
 #include
 using namespace std;
@@ -127,7 +135,8 @@ int main () {
 }
 {% endhighlight %}
 
-c sharp:
+
+<br />c sharp:
 {% highlight c# %}
 class Foo {
     public int Value;
@@ -138,7 +147,8 @@ class Foo {
 Foo foo = (Foo)2;
 {% endhighlight %}
 
-vb:
+
+<br />vb:
 {% highlight vb linenos %}
 Private Sub Form_Load()
     MsgBox "Hello, World!"

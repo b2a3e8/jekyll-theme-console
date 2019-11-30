@@ -1,6 +1,6 @@
 ---
-title: whoami
-layout: about
+title: /whoami
+layout: home
 permalink: /whoami
 ---
 

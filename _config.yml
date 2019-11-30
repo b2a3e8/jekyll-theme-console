@@ -8,9 +8,8 @@ header_pages:
 
 footer: 'follow us on <a href="https://twitter.com/">myhackingzone</a>'
 
-style: dark
+style: light # dark (default) or light
 listen_for_clients_preferred_style: true # true or false (default)
 
 plugins:
   - jekyll-seo-tag
-  - jekyll-theme-console

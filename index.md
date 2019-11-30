@@ -1,5 +1,5 @@
 ---
-title: deneme/
+title: /
 layout: home
 permalink: /
 ---

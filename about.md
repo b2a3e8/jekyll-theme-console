@@ -1,7 +1,7 @@
 ---
-title: /
+title: /deneme
 layout: about
-permalink: /
+permalink: /deneme
 ---
 
 # Lorem ipsum

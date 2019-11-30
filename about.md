@@ -1,5 +1,5 @@
 ---
-title: /whoami
+title: whoami
 layout: home
 permalink: /whoami
 ---

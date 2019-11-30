@@ -1,6 +1,6 @@
 ---
 title: root
-layout: root
+layout: home
 permalink: root/
 ---
 

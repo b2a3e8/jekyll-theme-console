@@ -1,7 +1,7 @@
 ---
 title: whoami
 layout: home
-permalink: /whoami
+permalink: whoami
 ---
 
 # whoami

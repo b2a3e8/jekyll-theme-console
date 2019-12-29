@@ -1,7 +1,7 @@
 title: 'b2a3e8.github.io'
 description: "A jekyll theme inspired by linux consoles for hackers, developers and script kiddies."
-baseurl: "/jekyll-theme-console"
-url: "https://b2a3e8.github.io"
+baseurl: "/fur2"
+url: "https://fur2.github.io"
 
 header_pages:
   - index.md

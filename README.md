@@ -13,25 +13,43 @@ source code: [https://github.com/b2a3e8/jekyll-theme-console/tree/gh-pages](http
 
 ## Installation
 
-Add this line to your Jekyll site's `Gemfile`:
+First, follow the steps in [this Quickstart Guide](https://jekyllrb.com/docs/) if you're starting with Jekyll from scratch. Skip this if you already have an existing jekyll project.
 
-```ruby
-gem "jekyll-theme-console"
-```
+### Remote theme method for GitHub Pages
 
-And add this line to your Jekyll site's `_config.yml`:
+Use this method for sites hosted with GitHub Pages only. To install:
 
-```yaml
-theme: jekyll-theme-console
-```
+1. Set `remote_theme` in your project's Jekyll `_config.yml` file:
+   
+   ```yaml
+   remote_theme: b2a3e8/jekyll-theme-console
+   ```
 
-And then execute:
+### Gem-based method
 
-    $ bundle
+With Gem-based themes, directories such as the `assets`, `_layouts`, `_includes`, and `_sass` are stored in the theme’s gem, hidden from your immediate view. Yet all of the necessary directories will be read and processed during Jekyll’s build process.
 
-Or install it yourself as:
+This allows for easier installation and updating as you don't have to manage any of the theme files. To install:
 
-    $ gem install jekyll-theme-console
+1. Add this line to your Jekyll site's `Gemfile`:
+   
+   ```ruby
+   gem "jekyll-theme-console"
+   ```
+
+2. Fetch and update bundled gems by running the following [Bundler](http://bundler.io/) command:
+
+   ```bash
+   bundle
+   ```
+
+3. Set `theme` in your project's Jekyll `_config.yml` file:
+   
+   ```yaml
+   theme: jekyll-theme-console
+   ```
+   
+To update the theme run `bundle update`.
 
 ## Usage
 

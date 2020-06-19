@@ -4,6 +4,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>{{ page.title }}</title>
   {%- seo title=false -%}
+  
+  {% if page.robots %}
+    <meta name="robots" content="{{page.robots}}" />
+  {% endif %}
 
   {%- if site.listen_for_clients_preferred_style -%}
     <link rel="stylesheet" type="text/css" href="{{ "/assets/main.css" | relative_url }}">

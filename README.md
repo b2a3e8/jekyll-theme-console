@@ -20,7 +20,7 @@ First, follow the steps in [this Quickstart Guide](https://jekyllrb.com/docs/) i
 Use this method for sites hosted with GitHub Pages only. To install:
 
 1. Set `remote_theme` in your project's Jekyll `_config.yml` file:
-   
+
    ```yaml
    remote_theme: b2a3e8/jekyll-theme-console
    ```
@@ -32,7 +32,7 @@ With Gem-based themes, directories such as the `assets`, `_layouts`, `_includes`
 This allows for easier installation and updating as you don't have to manage any of the theme files. To install:
 
 1. Add this line to your Jekyll site's `Gemfile`:
-   
+
    ```ruby
    gem "jekyll-theme-console"
    ```
@@ -44,14 +44,16 @@ This allows for easier installation and updating as you don't have to manage any
    ```
 
 3. Set `theme` in your project's Jekyll `_config.yml` file:
-   
+
    ```yaml
    theme: jekyll-theme-console
    ```
-   
+
 To update the theme run `bundle update`.
 
 ## Usage
+
+### _config.yaml
 
 In addition to jekyll's default configuration options, you can provide:
 - `header_pages` to specify which pages should be displayed in navbar
@@ -71,6 +73,13 @@ footer: 'follow us on <a href="https://twitter.com/xxx">twitter</a>'
 
 google_analytics: UA-NNNNNNNN-N
 ```
+
+### front matter variables
+
+Besides the predefined [front matter](https://jekyllrb.com/docs/front-matter/) variables from jekyll this theme also supports following variables:
+- `title` to set a title for the page
+- `lang` to specify the language, defaults to 'en'
+- `robots` to control the robot meta tag ([details](http://longqian.me/2017/02/12/jekyll-robots-configuration/)) - this may be useful for example to set `NOINDEX` to tag pages
 
 ## Customization
 

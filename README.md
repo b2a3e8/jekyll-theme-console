@@ -17,6 +17,8 @@ A jekyll theme with inspiration from linux consoles for hackers, developers and 
 
 First, follow the steps in [this Quickstart Guide](https://jekyllrb.com/docs/) if you're starting with Jekyll from scratch. Skip this if you already have an existing jekyll project.
 
+You can also use the [demo site source code](https://b2a3e8.github.io/jekyll-theme-console-demo-dark/) as template for an easy start.
+
 ### Remote theme method for GitHub Pages
 
 Use this method for sites hosted with GitHub Pages only. To install:

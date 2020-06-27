@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <title>{{ page.title }}</title>
   {%- seo title=false -%}
-  
+
   {% if page.robots %}
     <meta name="robots" content="{{page.robots}}" />
   {% endif %}
@@ -13,8 +13,10 @@
     <link rel="stylesheet" type="text/css" href="{{ "/assets/main.css" | relative_url }}">
   {%- else -%}
     {%- if site.style == 'light' -%}
-     <link rel="stylesheet" type="text/css" href="{{ "/assets/main-light.css" | relative_url }}">
-   {%- else -%}
+      <link rel="stylesheet" type="text/css" href="{{ "/assets/main-light.css" | relative_url }}">
+    {%- elsif site.style == 'hacker' -%}
+      <link rel="stylesheet" type="text/css" href="{{ "/assets/main-hacker.css" | relative_url }}">
+    {%- else -%}
       <link rel="stylesheet" type="text/css" href="{{ "/assets/main-dark.css" | relative_url }}">
     {%- endif -%}
   {%- endif -%}

@@ -1,11 +1,11 @@
 /**
- * Dark theme variables
+ * Hacker theme variables
  */
 
 :root {
-  --base-color: #DBDBDB;
-  --border: dashed 1px rgba(219, 219, 219, 0.9);
-  --selection-background: rgba(219, 219, 219, 0.99);
+  --base-color: #00ff00;
+  --border: dashed 1px rgba(0, 255, 0, 0.9);
+  --selection-background: rgba(0, 255, 0, 0.99);
   --selection-text: #000;
   --background-color: #000;
   --text-color: var(--base-color);

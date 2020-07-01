@@ -6,11 +6,19 @@ A jekyll theme with inspiration from linux consoles for hackers, developers and 
 
 ## Demo
 
-[dark style](https://b2a3e8.github.io/jekyll-theme-console-demo-dark/) ([source code](https://github.com/b2a3e8/jekyll-theme-console-demo-dark))
+[dark style](https://b2a3e8.github.io/jekyll-theme-console-demo-dark/) ([source code](https://github.com/b2a3e8/jekyll-theme-console-demo-dark)):
 
-[light style](https://b2a3e8.github.io/jekyll-theme-console-demo-light/) ([source code](https://github.com/b2a3e8/jekyll-theme-console-demo-light))
+[<img src="https://raw.githubusercontent.com/b2a3e8/jekyll-theme-console/master/screenshot-dark.png" width="350" title="Screenshot">](https://b2a3e8.github.io/jekyll-theme-console-demo-dark/)
 
-[hacker style](https://b2a3e8.github.io/jekyll-theme-console-demo-hacker/) ([source code](https://github.com/b2a3e8/jekyll-theme-console-demo-hacker))
+
+[light style](https://b2a3e8.github.io/jekyll-theme-console-demo-light/) ([source code](https://github.com/b2a3e8/jekyll-theme-console-demo-light)):
+
+[<img src="https://raw.githubusercontent.com/b2a3e8/jekyll-theme-console/master/screenshot-light.png" width="350" title="Screenshot">](https://b2a3e8.github.io/jekyll-theme-console-demo-light/)
+
+
+[hacker style](https://b2a3e8.github.io/jekyll-theme-console-demo-hacker/) ([source code](https://github.com/b2a3e8/jekyll-theme-console-demo-hacker)):
+
+[<img src="https://raw.githubusercontent.com/b2a3e8/jekyll-theme-console/master/screenshot-hacker.png" width="350" title="Screenshot">](https://b2a3e8.github.io/jekyll-theme-console-demo-hacker/)
 
 
 ## Installation

@@ -19,3 +19,5 @@ style: hacker # dark (default), light or hacker
 
 title: J4231x
 lang: en
+header_pages:
+  - index.md

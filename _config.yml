@@ -15,4 +15,4 @@ plugins:
   - jekyll-seo-tag
   
 remote_theme: b2a3e8/jekyll-theme-console
-style: dark # dark (default), light or hacker
+style: hacker # dark (default), light or hacker

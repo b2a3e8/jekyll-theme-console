@@ -1,6 +1,6 @@
 ---
 title: /admin
-layout: admin
+layout: page
 permalink: /
 ---
 

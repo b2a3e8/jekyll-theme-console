@@ -4,4 +4,4 @@ layout: page
 permalink: /
 ---
 
-# 1337 Hackers only allowed here
+# 1337 hackers only allowed here

@@ -5,7 +5,7 @@ permalink: /
 ---
 
 # Welcome
-this is my website. i have all of stuff linked here for you to check out.
+this is my website. i have all of my stuff linked here for you to check out.
 
 LINKS:
 <a href="https://soundcloud.com/reltale">Soundcloud</a>

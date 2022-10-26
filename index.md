@@ -5,7 +5,11 @@ permalink: /
 ---
 
 # Welcome
+this is my website. i have all of stuff linked here for you to check out.
 
-Hey my name is Rel and this is my site.
-As you can tell there isnt much here.
-So here is a gif of a <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">cat</a>
+LINKS:
+<a href="https://soundcloud.com/reltale">Soundcloud</a>
+<a href="https://www.twitch.tv/reltale">Twitch</a>
+<a href="https://twitter.com/Reltale">Twitter</a>
+<a href="https://www.youtube.com/channel/UCzuWPOAC3zUARMKfT-RVMkQ">YouTube</a>
+<a href="https://en.pronouns.page/@Reltale">Pronouns</a>

@@ -4,6 +4,4 @@ layout: page
 permalink: /reltale
 ---
 
-Eventually I will link all of my CTF writeups here and any other further documentation about me I believe is nessecary. I have been hacking for about a year now and I have much to learn.
-
-<a href="https://tryhackme.com/p/J4231x">TryHackMe</a>
+eventually i will have some info about me here. im not anything special so just know i like hacking, games, and music.

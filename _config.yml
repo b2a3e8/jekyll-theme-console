@@ -17,7 +17,7 @@ plugins:
 remote_theme: b2a3e8/jekyll-theme-console
 style: hacker # dark (default), light or hacker
 
-title: J4231x
+title: reltale
 lang: en
 header_pages:
   - home.md

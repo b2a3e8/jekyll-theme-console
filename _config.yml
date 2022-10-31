@@ -20,7 +20,7 @@ style: hacker # dark (default), light or hacker
 title: J4231x
 lang: en
 header_pages:
-  - index.md
-  - reltale.md
+  - home.md
+  - music.md
   
 footer: '@reltale / reltale#5500'

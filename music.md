@@ -8,5 +8,5 @@ permalink: /music
 
 <a href="https://soundcloud.com/reltale">SoundCloud</a>
 
-11/7/22 - Took a little break from music. Getting better equipment so im hoping to finish the project im working on. Expecting to drop January 2023.
+<strong>11/7/22 -</strong> Took a little break from music. Getting better equipment so im hoping to finish the project im working on. Expecting to drop January 2023.
 

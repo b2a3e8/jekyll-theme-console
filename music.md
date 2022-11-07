@@ -6,6 +6,7 @@ permalink: /music
 
 # user@reltale:~$ cat music.md
 
-Yeah I make music you probably arent going to like but I make it for myself. My main type of music is screamo and trap metal but I have been branching off into breakcore and soon rap. I use Bandlab and Ableton (really dont understand ableton)
+<a href="https://soundcloud.com/reltale">SoundCloud</a>
 
-Here is the link to my <a href="https://soundcloud.com/reltale">SoundCloud</a>
+11/7/22 - Took a little break from music. Getting better equipment so im hoping to finish the project im working on. Expecting to drop January 2023.
+

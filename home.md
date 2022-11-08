@@ -6,7 +6,7 @@ permalink: /
 
 # user@reltale:~$ whoami
 
-Hi my name is reltale, and I am person with many interests. To name a few I enjoy gaming, hacking, and making music. My life development made me not care about others as much as I used to but I still hope you find entertainment out of any of my work.
+Hi my name is reltale, and I am person with many interests. Welcome to my site!
 
 # SOCIALS:
 <a href="https://www.twitch.tv/reltale">Twitch</a>

@@ -13,7 +13,7 @@
   <link rel="stylesheet" type="text/css" href="{{ " /assets/main.css" | relative_url }}">
   {%- else -%}
   {%- if site.style == 'nord' -%}
-  <link rel="stylesheet" type="text/css" href="{{ " /assets/main-nord.css" }}">
+  <link rel="stylesheet" type="text/css" href="{{ "/assets/main-nord.css" | relative_url }}">
   {%- elsif site.style == 'light' -%}
   <link rel="stylesheet" type="text/css" href="{{ " /assets/main-light.css" | relative_url }}">
   {%- elsif site.style == 'hacker' -%}

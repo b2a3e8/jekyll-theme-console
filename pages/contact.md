@@ -1,7 +1,7 @@
 ---
 title: /contact
 layout: page
-permalink: /
+permalink: /contact
 ---
 
 # This will be the contact page

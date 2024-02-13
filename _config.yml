@@ -3,8 +3,8 @@
 #google_analytics: UA-NNNNNNNN-N
 
 header_pages:
-  - home.md
-  - contact.md
+  - pages/home.md
+  - pages/contact.md
 
 footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
 

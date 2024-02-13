@@ -3,7 +3,7 @@ layout: post
 title:  "dummy post"
 date:   2019-11-06 01:11:00 +0100
 categories:
-image: images\Almightyloaf.png
+image: images/Almightyloaf.png
 ---
 
 # My test post

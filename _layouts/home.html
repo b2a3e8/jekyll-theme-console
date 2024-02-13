@@ -10,8 +10,10 @@ layout: default
     {%- for post in site.posts -%}
     <li>
       {%- assign date_format = "%Y-%m-%d" -%}
-      [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-      <img src="{{ post.image | relative_url }}" alt="Trulli" style='height: 100%; width: 100%; object-fit: contain'>
+      <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a> | {{ post.categories}} | {{ post.skills}}
+      <div>
+        <img src="{{ post.image | relative_url }}">
+      </div>
     </li>
     {%- endfor -%}
   </ul>

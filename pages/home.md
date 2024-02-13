@@ -4,6 +4,13 @@ layout: home
 permalink: /
 ---
 
-# This is a test of the home page
+# About
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Hi, my names Francesco Marrato. I am a Canadian engineer with a MASc in Electrical and Computer engineering.
+
+I am an experienced roboticist interested in the creation of reliable, capable, and dynamic, autonomous field robots. 
+
+Presented is an accumulation of past completed projects from my academic research, professional work, and personal interests.
+
+# Projects
+

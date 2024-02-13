@@ -6,7 +6,7 @@ header_pages:
   - pages/home.md
   - pages/contact.md
 
-footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
+footer: '<a href="https://b2a3e8.github.io/jekyll-theme-console-demo-light/">light</a>'
 
 style: dark # dark (default) or light
 #listen_for_clients_preferred_style: true # true or false (default)

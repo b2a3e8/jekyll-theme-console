@@ -4,6 +4,7 @@
 
 header_pages:
   - pages/home.md
+  - pages/curriculumvitae.md
   - pages/contact.md
 
 footer: 'be kind to each other'

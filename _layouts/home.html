@@ -11,6 +11,7 @@ layout: default
     <li>
       {%- assign date_format = "%Y-%m-%d" -%}
       [ {{ post.date | date: date_format }} ] <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+      <img src="{{ post.image | relative_url }}" alt="Trulli" style='height: 100%; width: 100%; object-fit: contain'>
     </li>
     {%- endfor -%}
   </ul>

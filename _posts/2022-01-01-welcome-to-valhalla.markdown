@@ -3,6 +3,7 @@ layout: post
 title:  "Welcome to Valhalla!"
 date:   2018-11-07 12:32:45 +0100
 categories:
+image: images\Almightyloaf.png
 ---
 
 # Welcome to Valhalla!

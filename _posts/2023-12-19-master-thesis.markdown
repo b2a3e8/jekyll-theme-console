@@ -3,7 +3,7 @@ layout: post
 title:  "Spot Explores Simulated Disasters With Robotic Ears"
 date:   2023-12-19 12:32:45 +0100
 categories: MASc_Research
-image: images\spot_research\SpotBanner.png
+image: images/spot_research/SpotBanner.png
 skills: "ROS, Python, Behavioral Modeling"
 ---
 

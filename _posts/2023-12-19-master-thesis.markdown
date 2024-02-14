@@ -38,3 +38,6 @@ ROS - Robotic Simulation (Gazebo) - Python - C++ - Hardware Design - Behavioral 
 <br>
 *Special thanks to Ingenuity Labs and Professor Joshua Marshall
 
+![SpotBanner](/images/spot_research/SpotBanner.png)
+
+

@@ -12,14 +12,24 @@ skills:
 <div align="center"> Side Project </div>
 
 ### Overview
-This project served as a refresher for ROS after completing my undergraduate in engineering and to give me the opportunity to educate myself about stereo imaging and Visual SLAM is approached ROS. 
+This project served as a refresher for ROS after completing my undergraduate in engineering and to give me the opportunity to educate myself about how stereo imaging and Visual SLAM is applied in ROS. 
+
+The PlayStation VR camera is an inexpensive, off the shelf, stereo camera that can be found on the second hand market for \<$50. This project turned it into an accessible avenue for 3D mapping, SLAM, and stereo imaging in ROS. 
+
+I developed the ROS nodes necessary to use the PlayStation VR stereo camera as an input device for popular VSLAM packages such as 'RTAB-Map' and 'stereo_image_proc'. This project built off the work from [Hackinside](https://github.com/Hackinside/PS4-CAMERA-DRIVERS) who developed the drivers so the camera would function as a usb device.
+
+The node publishes individual, time synchronized images from the PlayStation cameras left and right sensors. It applies colour formating, cropping, frame IDs, metadata ('camera_info' topics), and loads each cameras calibration data.
+
+The project is packaged for easy installation with your ROS projects. 
 
 ### Media
 
 ### Proficientcies
 
-ROS - Python - Computer Vision - OpenCV - Stereo Calibration - rtab-map
+ROS - Python - VSLAM - Computer Vision - OpenCV - Stereo Calibration - rtab-map
 
 ### Further Readings
 * [Git Repo](https://github.com/TankyFranky/PS4_Stereo_ROS_SLAM)
+* [Class Project using this Project](images/psvr_ros/ELEC_845_Final_Project___Francesco_Marrato.pdf)
+
 

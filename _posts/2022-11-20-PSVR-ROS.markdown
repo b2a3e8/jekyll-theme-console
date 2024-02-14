@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "$50 Visual SLAM in ROS Using a Modified PlayStation Camera"
+date:   2022-11-20 12:32:45 +0100
+categories: Side_Project
+image: 
+skills: 
+---
+
+# $50 Visual SLAM in ROS Using a Modified PlayStation Camera
+<!-- Type of Project -->
+<div align="center"> Side Project </div>
+
+### Overview
+This project served as a refresher for ROS after completing my undergraduate in engineering and to give me the opportunity to educate myself about stereo imaging and Visual SLAM in ROS. 
+
+### Media
+
+### Proficientcies
+
+ROS - Python - Computer Vision - OpenCV - Stereo Calibration - rtab-map
+
+### Further Readings
+* [Git Repo](https://github.com/TankyFranky/PS4_Stereo_ROS_SLAM)
+

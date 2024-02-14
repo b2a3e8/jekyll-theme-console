@@ -15,7 +15,9 @@ $container-max-width:  600px !default;
  * Global
  */
 body { background-color: var(--background-color);  margin: 0 auto;  padding: 0;  font-family: $base-font-family;  font-size: $base-font-size;  color: var(--text-color);  text-align: left;  line-height: $base-line-height !important; }
-h1, h2, h3, h4, h5, h6 { font-size: $base-font-size;  margin: 0px;  margin-top: 22px;  font-weight: bold;  color: var(--text-color); }
+h1 { font-size: $base-font-size*1.25;  margin: 0px;  margin-top: 22px; margin-bottom: 7px;  font-weight: bold;  color: var(--text-color); text-align: center;} // centeered large titles (#)
+h2 { font-size: $base-font-size*1.25;  margin: 0px;  margin-top: 22px; margin-bottom: 7px;  font-weight: bold;  color: var(--text-color);} // left aligned large subheadings (##)
+h3, h4, h5, h6 { font-size: $base-font-size;  margin: 0px;  margin-top: 22px;  font-weight: bold;  color: var(--text-color); }
 p, ul, ol { margin: 0px;  color: var(--text-color); }
 a { text-decoration: underline;  color: var(--link-color); }
 a:hover { color: var(--background-color); background-color: var(--base-color); }

@@ -12,7 +12,7 @@ skills:
 <div align="center"> Side Project </div>
 
 ### Overview
-This project served as a refresher for ROS after completing my undergraduate in engineering and to give me the opportunity to educate myself about stereo imaging and Visual SLAM in ROS. 
+This project served as a refresher for ROS after completing my undergraduate in engineering and to give me the opportunity to educate myself about stereo imaging and Visual SLAM is approached ROS. 
 
 ### Media
 

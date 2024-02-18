@@ -51,7 +51,7 @@ I was fortunate enough to present my findings at [IROS 2023 Detroit](https://www
 
 ### Media
 <div align="center"> Working at NCRN 2023 </div>
-![SpotBanner](/images/spot_research/field_trials.jpg)
+![SpotBanner](/images/spot_research/field_trials.JPG)
 
 <div align="center"> The systems digital twin in ROS </div>
 ![SpotBanner](/images/spot_research/digital_twin.png)

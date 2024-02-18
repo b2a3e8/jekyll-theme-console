@@ -20,9 +20,7 @@ I developed Spot to explore previously unmapped environments while tracking the 
 
 Experimentation was performed in ideal lab environments, semi-structured simulated urban disaster scenarios, and unstructured forest terrain. I performed field trials at the Kingston Fire and Rescue Training Facility and got to participatre in the 2023 NSERC Canadian Robotics Network field trials. My results concluded that sound source tracking was a capable heuristic, demonstrating a viable concept where autonomous disaster robots could be improved by giving them the ability to listen for people needing help.
 
-I was fortunate enough to present my findings at [IROS 2023 Detroit](https://www.linkedin.com/posts/francesco-marrato_iros2023-activity-7114980573646917632-9t4Y?utm_source=share&utm_medium=member_desktop).
-
-### Media
+I was fortunate enough to present my findings at [IROS 2023 Detroit](https://www.linkedin.com/posts/francesco-marrato_iros2023-activity-7114980573646917632-9t4Y?utm_source=share&utm_medium=member_desktop). 
 
 ### Proficientcies
 
@@ -50,6 +48,13 @@ I was fortunate enough to present my findings at [IROS 2023 Detroit](https://www
         <div>Frontier Exploration | </div>
     </div>
 </div>
+
+### Media
+<div align="center"> Working at NCRN 2023 </div>
+![SpotBanner](/images/spot_research/field_trials.jpg)
+
+<div align="center"> The systems digital twin in ROS </div>
+![SpotBanner](/images/spot_research/digital_twin.png)
 
 ### Further Readings
 * [Video demonstration](https://www.youtube.com/watch?v=P1QKg5s2XsQ).

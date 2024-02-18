@@ -6,3 +6,17 @@ categories: type
 image: image link (/ not \)
 skills: skill list
 ---
+
+# Title
+<!-- Type of Project -->
+<div align="center"> Side Project </div>
+
+### Overview
+
+### Media
+
+### Proficientcies
+
+### Further Readings
+
+![BANNER](BANNER LINK)

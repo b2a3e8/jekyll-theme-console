@@ -26,7 +26,30 @@ I was fortunate enough to present my findings at [IROS 2023 Detroit](https://www
 
 ### Proficientcies
 
-ROS - Robotic Simulation (Gazebo) - Python - C++ - Hardware Design - Behavioral Models - Robotic Audition - Localization - Frontier Exploration 
+<div class="marquee">
+    <div class="marquee-content scroll">
+        <div>  ROS | </div>
+        <div>Robotic Simulation (Gazebo) | </div>
+        <div>Python | </div>
+        <div>C++ | </div>
+        <div>Hardware Design | </div>
+        <div>Behavioral Models | </div>
+        <div>Robotic Audition | </div>
+        <div>Localization | </div>
+        <div>Frontier Exploration | </div>
+    </div>
+    <div class="marquee-content scroll">
+        <div>  ROS | </div>
+        <div>Robotic Simulation (Gazebo) | </div>
+        <div>Python | </div>
+        <div>C++ | </div>
+        <div>Hardware Design | </div>
+        <div>Behavioral Models | </div>
+        <div>Robotic Audition | </div>
+        <div>Localization | </div>
+        <div>Frontier Exploration | </div>
+    </div>
+</div>
 
 ### Further Readings
 * [Video demonstration](https://www.youtube.com/watch?v=P1QKg5s2XsQ).

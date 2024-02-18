@@ -79,6 +79,39 @@ textarea { vertical-align: top; }
 }
 
 /**
+ * Code for infinite marquee
+ */
+
+.marquee{
+    display: flex;
+    overflow: hidden;
+    gap: 1rem;
+    position: relative;
+    user-select: none;
+}
+
+.marquee-content {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    min-width: 100%;
+    gap: 1rem;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(calc(-100% - 1rem));
+    }
+}
+
+.scroll {
+    animation: scroll 20s linear infinite;
+}
+
+/**
  * Code and syntax highlighting
  */
 .lineno { color: var(--code-color-1); margin-right: 15px; }

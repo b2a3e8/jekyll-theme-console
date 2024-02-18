@@ -56,6 +56,9 @@ I was fortunate enough to present my findings at [IROS 2023 Detroit](https://www
 <div align="center"> The systems digital twin in ROS </div>
 ![SpotBanner](/images/spot_research/digital_twin.png)
 
+<div align="center"> Indoor Lab Testing </div>
+![SpotBanner](/images/spot_research/lab_tests.JPG)
+
 ### Further Readings
 * [Video demonstration](https://www.youtube.com/watch?v=P1QKg5s2XsQ).
 * [Condensed conference style paper](https://github.com/offroad-robotics/sst_as_a_heuristic_for_frontier_exploration/blob/main/project_images/ICRA2024_Sound_Source_Tracking_as_a_Heuristic_for_Search.pdf).

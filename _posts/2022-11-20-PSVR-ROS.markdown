@@ -3,7 +3,7 @@ layout: post
 title:  "$50 Visual SLAM in ROS Using a Modified PlayStation Camera"
 date:   2022-11-20 12:32:45 +0100
 categories: Side_Project
-image: images/spot_research/SpotBanner.png
+image: images/psvr_ros/PSVRBanner.png
 skills: 
 ---
 

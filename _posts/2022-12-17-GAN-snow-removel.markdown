@@ -3,7 +3,7 @@ layout: post
 title:  "Using a Pix2Pix GAN Neural Network to Improve Snowy Images"
 date:   2022-12-17 12:32:45 +0100
 categories: Research_Project
-image: images/spot_research/SpotBanner.png
+image: images/gan_snow/GANBanner.png
 skills: 
 ---
 # Using a Pix2Pix GAN Neural Network to Improve Snowy Images

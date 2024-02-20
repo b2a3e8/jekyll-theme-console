@@ -18,7 +18,7 @@ The PlayStation VR camera is an inexpensive, off the shelf, stereo camera that c
 
 I developed the ROS nodes necessary to use the PlayStation VR stereo camera as an input device for popular VSLAM packages such as 'RTAB-Map' and 'stereo_image_proc'. This project built off the work from [Hackinside](https://github.com/Hackinside/PS4-CAMERA-DRIVERS) who developed the drivers so the camera would function as a usb device.
 
-The node publishes individual, time synchronized images from the PlayStation cameras left and right sensors. It applies colour formating, cropping, frame IDs, metadata ('camera_info' topics), and loads each cameras calibration data.
+The node publishes individual, time synchronized images from the PlayStation cameras left and right sensors. It applies colour formating, cropping, frame IDs, metadata, and loads each cameras calibration info.
 
 The project is packaged for easy installation with your ROS projects. 
 
@@ -50,10 +50,10 @@ The project is packaged for easy installation with your ROS projects.
 <div align="center">Hardware</div>
 <img src="/images/psvr_ros/psvr_hardware.jpg" alt="hardware" width="500">
 
-<div align="center">RTAB-Map Point Cloud</div>
+<div align="center">Handheld Point Cloud</div>
 ![points_gif](/images/psvr_ros/PSVR_point.gif)
 
-<div align="center">Images with Keypoint Detection</div>
+<div align="center">Still Frames with Keypoint Detection</div>
 ![images_gif](/images/psvr_ros/PSVR_image.gif)
 
 <div align="center">Sample Result</div>
@@ -61,7 +61,7 @@ The project is packaged for easy installation with your ROS projects.
 
 ### Further Readings
 * [Git Repo](https://github.com/TankyFranky/PS4_Stereo_ROS_SLAM)
-* [Class Project using this Project](https://github.com/TankyFranky/tankyfranky.github.io/blob/jekyll_style_learning/images/psvr_ros/ELEC_845_Final_Project___Francesco_Marrato.pdf)
+* [Class Assignment using this Project](https://github.com/TankyFranky/tankyfranky.github.io/blob/jekyll_style_learning/images/psvr_ros/ELEC_845_Final_Project___Francesco_Marrato.pdf)
 
 <br>
 ![PSVRBanner](/images/psvr_ros/PSVRBanner.png)

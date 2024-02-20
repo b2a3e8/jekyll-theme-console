@@ -81,6 +81,10 @@ textarea { vertical-align: top; }
     width: auto\9; /* ie8 */
 }
 
+hr {
+    border-top: var(--border); border-bottom: 0;
+  }
+
 /**
  * Code for infinite marquee
  */

@@ -21,11 +21,40 @@ The approach was effective, with the generalized network achieving a peak signal
 
 Our contribution lies in exploring new avenues for weather removal, demonstrating that a general image translation network can achieve competitive performance without task-specific components. 
 
+### Proficientcies
+<div class="marquee">
+    <div class="marquee-content scroll">
+        <div>  TensorFlow | </div>
+        <div>Python | </div>
+        <div>Big Data Manipulation | </div>
+        <div>Deep Learning | </div>
+        <div>GAN architetcures | </div>
+        <div>GPU Cluster Resource Scheduling | </div>
+    </div>
+    <div class="marquee-content scroll">
+        <div>  TensorFlow | </div>
+        <div>Python | </div>
+        <div>Big Data Manipulation | </div>
+        <div>Deep Learning | </div>
+        <div>GAN architetcures | </div>
+        <div>GPU Cluster Resource Scheduling | </div>
+    </div>
+</div>
+
 ### Media
 
-### Proficientcies
-TensorFlow - Python - Big Data Manipulation - Deep Learning - GAN architetcures - GPU Cluster Resource Scheduling
+<div align="center">Dataset Example: Ground Truth, Snow Mask, and Sythetic Snow Image.</div>
+![GAN_Result](/images/gan_snow/dataset_example.png)
+
+<div align="center">Example Result (Pre/Post Snow Removal)</div>
+![GAN_Result](/images/gan_snow/bridge_example.jpg)
+
+<div align="center">Input --> Generated --> Ground Truth</div>
+![GAN_Result](/images/gan_snow/example_result.png)
 
 ### Further Readings
 * [Git Repo](https://github.com/TankyFranky/Snow_Removal_GAN_ELEC825_Final_Project)
 * [Journal style paper](https://github.com/TankyFranky/Snow_Removal_GAN_ELEC825_Final_Project/blob/main/ELEC_825___Final_Project.pdf)
+
+<br>
+![GANBanner](/images/gan_snow/GANBanner.png)

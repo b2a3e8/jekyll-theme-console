@@ -22,14 +22,46 @@ The node publishes individual, time synchronized images from the PlayStation cam
 
 The project is packaged for easy installation with your ROS projects. 
 
+### Proficientcies
+<div class="marquee">
+    <div class="marquee-content scroll">
+        <div>ROS | </div>
+        <div>Python | </div>
+        <div>Visual SLAM | </div>
+        <div>Computer Vision | </div>
+        <div>OpenCV | </div>
+        <div>Stereo Calibration | </div>
+        <div>RTAB-Map | </div>
+        <div>Nav Stack | </div>
+    </div>
+    <div class="marquee-content scroll">
+        <div>ROS | </div>
+        <div>Python | </div>
+        <div>Visual SLAM | </div>
+        <div>Computer Vision | </div>
+        <div>OpenCV | </div>
+        <div>Stereo Calibration | </div>
+        <div>RTAB-Map | </div>
+    </div>
+</div>
+
 ### Media
 
-### Proficientcies
+<div align="center">Hardware</div>
+<img src="/images/psvr_ros/psvr_hardware.jpg" alt="hardware" width="500">
 
-ROS - Python - VSLAM - Computer Vision - OpenCV - Stereo Calibration - RTAB-Map
+<div align="center">RTAB-Map Point Cloud</div>
+![points_gif](/images/psvr_ros/PSVR_point.gif)
+
+<div align="center">Images with Keypoint Detection</div>
+![images_gif](/images/psvr_ros/PSVR_image.gif)
+
+<div align="center">Sample Result</div>
+<img src="/images/psvr_ros/example_scan.png" alt="sample_result" width="500">
 
 ### Further Readings
 * [Git Repo](https://github.com/TankyFranky/PS4_Stereo_ROS_SLAM)
 * [Class Project using this Project](https://github.com/TankyFranky/tankyfranky.github.io/blob/jekyll_style_learning/images/psvr_ros/ELEC_845_Final_Project___Francesco_Marrato.pdf)
 
-
+<br>
+![PSVRBanner](/images/psvr_ros/PSVRBanner.png)

@@ -1,8 +1,8 @@
 # Example Site settings
 
 #header_pages:
-#  - index.md
-#  - about.md
+- index.md
+- about.md
 
 #footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
 
@@ -10,7 +10,7 @@ plugins:
   - jekyll-seo-tag
 
 # Theme options
-# style: dark # dark (default) or light or hacker
+style: dark # dark (default) or light or hacker
 # listen_for_clients_preferred_style: true # true or false (default)
 
 # Fonts

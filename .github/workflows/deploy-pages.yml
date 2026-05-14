@@ -1,0 +1,68 @@
+name: Deploy Jekyll site to Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+  actions: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      GA_MEASUREMENT_ID: ${{ secrets.GA_MEASUREMENT_ID }}
+      COHORT_SPLIT_PERCENT: ${{ secrets.COHORT_SPLIT_PERCENT }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+
+      - name: Install Jekyll dependencies
+        working-directory: dheiryabhatt.github.io
+        run: bundle install
+
+      - name: Create CI config overrides from Repository Secrets
+        working-directory: dheiryabhatt.github.io
+        run: |
+          cat > _config.ci.yml <<EOF
+          ga_measurement_id: "${GA_MEASUREMENT_ID}"
+          cohort_split_percent: ${COHORT_SPLIT_PERCENT}
+          EOF
+
+      - name: Build with Jekyll
+        working-directory: dheiryabhatt.github.io
+        run: bundle exec jekyll build --config _config.yml,_config.ci.yml --source . --destination ../_site
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
